@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Modal, Text, TouchableHighlight, View } from 'react-native';
+import { Modal, Text, TouchableOpacity, View, StyleSheet } from 'react-native';
 
 export default class Main extends Component {
 
@@ -7,40 +7,21 @@ export default class Main extends Component {
         modalVisible: false,
     }
 
-    setModalVisible(visible) {
-        this.setState({modalVisible: visible});
-    }
-
     render() {
         return (
-            <View style={{marginTop: 22}}>
-                <Modal
-                    animationType="slide"
-                    transparent={false}
-                    visible={this.state.modalVisible}
-                    onRequestClose={() => {alert("Modal has been closed.")}}
-                >
-                    <View style={{marginTop: 22}}>
-                        <View>
-                            <Text>Hello World!</Text>
-
-                            <TouchableHighlight onPress={() => {
-                                this.setModalVisible(!this.state.modalVisible)
-                            }}>
-                                <Text>Hide Modal</Text>
-                            </TouchableHighlight>
-
-                        </View>
-                    </View>
-                </Modal>
-
-                <TouchableHighlight onPress={() => {
-                    this.setModalVisible(true)
-                }}>
-                    <Text>Show Modal</Text>
-                </TouchableHighlight>
-
+            <View style={styles.container}>
+                <TouchableOpacity onPress={()=>{this.props.navigation.navigate('LoginMenu')}}>
+                    <Text>Go to login</Text>
+                </TouchableOpacity>
             </View>
         );
     }
 }
+
+const styles = StyleSheet.create({
+    container:{
+        flex: 1,
+        justifyContent:'center',
+        alignItems:'center'
+    }
+});
