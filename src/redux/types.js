@@ -1,2 +1,8 @@
 export const INCREMENT = 'INCREMENT';
 export const DECREMENT = 'DECREMENT';
+export const SHOW_GUIDE = 'SHOW_GUIDE';
+export const SHOW_GUIDE_TOPUP = 'SHOW_GUIDE_TOPUP';
+export const SHOW_GUIDE_WITHDRAWAL = 'SHOW_GUIDE_WITHDRAWAL';
+export const SHOW_GUIDE_TRANSFERS = 'SHOW_GUIDE_TRANSFERS';
+export const SET_THEME = 'SET_THEME';
+export const SHOW_LOADING = 'SHOW_LOADING';

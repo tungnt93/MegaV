@@ -3,6 +3,10 @@ package com.megav;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
+import com.rt2zz.reactnativecontacts.ReactNativeContacts;
+import cl.json.RNSharePackage;
 import com.centaurwarchief.smslistener.SmsListenerPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.lwansbrough.RCTCamera.RCTCameraPackage;
@@ -27,6 +31,10 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new ReactNativePushNotificationPackage(),
+            new SplashScreenReactPackage(),
+            new ReactNativeContacts(),
+            new RNSharePackage(),
             new SmsListenerPackage(),
             new VectorIconsPackage(),
             new RCTCameraPackage(),

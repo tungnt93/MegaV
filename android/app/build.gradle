@@ -94,8 +94,15 @@ def enableSeparateBuildPerCPUArchitecture = false
 def enableProguardInReleaseBuilds = false
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+
+    dexOptions {
+        preDexLibraries true
+        javaMaxHeapSize "3g"
+        incremental true
+        dexInProcess = true
+    }
 
     defaultConfig {
         applicationId "com.megav"
@@ -137,6 +144,10 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-push-notification')
+    compile project(':react-native-splash-screen')
+    compile project(':react-native-contacts')
+    compile project(':react-native-share')
     compile project(':react-native-android-sms-listener')
     compile project(':react-native-vector-icons')
     compile project(':react-native-camera')

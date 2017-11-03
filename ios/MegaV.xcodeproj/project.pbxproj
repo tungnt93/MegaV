@@ -50,6 +50,12 @@
 		6EF4EACF7F924D6D9ECD7536 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CFFC8EC29674290A73CF72F /* Octicons.ttf */; };
 		34648BE22C284CC9A552FE3A /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B74840238504AEAAA9059EC /* SimpleLineIcons.ttf */; };
 		0762113FBA2A48A087E807E4 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E927A0B6AE1E462EADCB2DBF /* Zocial.ttf */; };
+		A7EA2B7F8E2F4CCCBBC75DD0 /* libRNShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F99755F9A5DF48BA89E8D7EB /* libRNShare.a */; };
+		FAE301C45856478886556C67 /* libRCTContacts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F2A4F3FAF447B3A2DC55BE /* libRCTContacts.a */; };
+		9C0F0EF4537E477B9C40D2DD /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B328CF9852C0495FBF599F37 /* libSplashScreen.a */; };
+		A15C3E49767E4BD2B2CADB35 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91447384681746A8B752809C /* OpenSans-Light.ttf */; };
+		99DB91823BCD478BBA03AD19 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF24F755E43D4E65B10F28EE /* OpenSans-Bold.ttf */; };
+		91BFEC1CD2FC4202A062B1CD /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5054F81AF2B2474F972472CC /* OpenSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -294,6 +300,15 @@
 		4CFFC8EC29674290A73CF72F /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		1B74840238504AEAAA9059EC /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		E927A0B6AE1E462EADCB2DBF /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		172587DD13A24348B34C38D6 /* RNShare.xcodeproj */ = {isa = PBXFileReference; name = "RNShare.xcodeproj"; path = "../node_modules/react-native-share/ios/RNShare.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		F99755F9A5DF48BA89E8D7EB /* libRNShare.a */ = {isa = PBXFileReference; name = "libRNShare.a"; path = "libRNShare.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		453A423E171A4E4984F2381A /* RCTContacts.xcodeproj */ = {isa = PBXFileReference; name = "RCTContacts.xcodeproj"; path = "../node_modules/react-native-contacts/ios/RCTContacts.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		36F2A4F3FAF447B3A2DC55BE /* libRCTContacts.a */ = {isa = PBXFileReference; name = "libRCTContacts.a"; path = "libRCTContacts.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		AE7AB9A848CC4AA89D679FF0 /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; name = "SplashScreen.xcodeproj"; path = "../node_modules/react-native-splash-screen/ios/SplashScreen.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		B328CF9852C0495FBF599F37 /* libSplashScreen.a */ = {isa = PBXFileReference; name = "libSplashScreen.a"; path = "libSplashScreen.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		91447384681746A8B752809C /* OpenSans-Light.ttf */ = {isa = PBXFileReference; name = "OpenSans-Light.ttf"; path = "../src/assets/font/OpenSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF24F755E43D4E65B10F28EE /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; name = "OpenSans-Bold.ttf"; path = "../src/assets/font/OpenSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5054F81AF2B2474F972472CC /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; name = "OpenSans-Regular.ttf"; path = "../src/assets/font/OpenSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +340,9 @@
 				234033F80B4E4E81A298E981 /* libTouchID.a in Frameworks */,
 				0B0078AB431140F3ADB04C87 /* libRCTCamera.a in Frameworks */,
 				6E2C968D12204126A9B9DB10 /* libRNVectorIcons.a in Frameworks */,
+				A7EA2B7F8E2F4CCCBBC75DD0 /* libRNShare.a in Frameworks */,
+				FAE301C45856478886556C67 /* libRCTContacts.a in Frameworks */,
+				9C0F0EF4537E477B9C40D2DD /* libSplashScreen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +514,9 @@
 				4B1FE6B5E91840B4A348CDDB /* TouchID.xcodeproj */,
 				1033D0B620BF40A38D555FE6 /* RCTCamera.xcodeproj */,
 				78C6453C002C41269354C8E8 /* RNVectorIcons.xcodeproj */,
+				172587DD13A24348B34C38D6 /* RNShare.xcodeproj */,
+				453A423E171A4E4984F2381A /* RCTContacts.xcodeproj */,
+				AE7AB9A848CC4AA89D679FF0 /* SplashScreen.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -556,6 +577,9 @@
 				4CFFC8EC29674290A73CF72F /* Octicons.ttf */,
 				1B74840238504AEAAA9059EC /* SimpleLineIcons.ttf */,
 				E927A0B6AE1E462EADCB2DBF /* Zocial.ttf */,
+				91447384681746A8B752809C /* OpenSans-Light.ttf */,
+				BF24F755E43D4E65B10F28EE /* OpenSans-Bold.ttf */,
+				5054F81AF2B2474F972472CC /* OpenSans-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -941,6 +965,9 @@
 				6EF4EACF7F924D6D9ECD7536 /* Octicons.ttf in Resources */,
 				34648BE22C284CC9A552FE3A /* SimpleLineIcons.ttf in Resources */,
 				0762113FBA2A48A087E807E4 /* Zocial.ttf in Resources */,
+				A15C3E49767E4BD2B2CADB35 /* OpenSans-Light.ttf in Resources */,
+				99DB91823BCD478BBA03AD19 /* OpenSans-Bold.ttf in Resources */,
+				91BFEC1CD2FC4202A062B1CD /* OpenSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1074,15 +1101,15 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MegaV.app/MegaV";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-touch-id",
 					"$(SRCROOT)\..\node_modules\react-native-camera\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-share\ios",
+					"$(SRCROOT)\..\node_modules\react-native-contacts\ios\RCTContacts",
+					"$(SRCROOT)\..\node_modules\react-native-splash-screen\ios",
 				);
 			};
 			name = Debug;
@@ -1103,15 +1130,15 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MegaV.app/MegaV";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-touch-id",
 					"$(SRCROOT)\..\node_modules\react-native-camera\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-share\ios",
+					"$(SRCROOT)\..\node_modules\react-native-contacts\ios\RCTContacts",
+					"$(SRCROOT)\..\node_modules\react-native-splash-screen\ios",
 				);
 			};
 			name = Release;
@@ -1136,6 +1163,9 @@
 					"$(SRCROOT)\..\node_modules\react-native-touch-id",
 					"$(SRCROOT)\..\node_modules\react-native-camera\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-share\ios",
+					"$(SRCROOT)\..\node_modules\react-native-contacts\ios\RCTContacts",
+					"$(SRCROOT)\..\node_modules\react-native-splash-screen\ios",
 				);
 			};
 			name = Debug;
@@ -1159,6 +1189,9 @@
 					"$(SRCROOT)\..\node_modules\react-native-touch-id",
 					"$(SRCROOT)\..\node_modules\react-native-camera\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-share\ios",
+					"$(SRCROOT)\..\node_modules\react-native-contacts\ios\RCTContacts",
+					"$(SRCROOT)\..\node_modules\react-native-splash-screen\ios",
 				);
 			};
 			name = Release;
@@ -1188,15 +1221,15 @@
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-touch-id",
 					"$(SRCROOT)\..\node_modules\react-native-camera\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-share\ios",
+					"$(SRCROOT)\..\node_modules\react-native-contacts\ios\RCTContacts",
+					"$(SRCROOT)\..\node_modules\react-native-splash-screen\ios",
 				);
 			};
 			name = Debug;
@@ -1226,15 +1259,15 @@
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-touch-id",
 					"$(SRCROOT)\..\node_modules\react-native-camera\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-share\ios",
+					"$(SRCROOT)\..\node_modules\react-native-contacts\ios\RCTContacts",
+					"$(SRCROOT)\..\node_modules\react-native-splash-screen\ios",
 				);
 			};
 			name = Release;
@@ -1259,9 +1292,6 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1286,9 +1316,6 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Release;
